@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calcultor{
+  background-color: aliceblue;
+  height: 360px;
+  width: 250px;
+}
+form input{
+  width: 55px;
+  height: 55px;
+  margin: 2px;
+  cursor: pointer;
+ 
+}
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(178, 190, 190);
+}
+form .display input{
+  flex:2;
+}
