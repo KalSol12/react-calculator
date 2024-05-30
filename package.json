@@ -1,11 +1,13 @@
-{
+{  "homepage": "https://KalSol12.github.io/react-calculator",
   "name": "my-apps",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",
+    "predeploy":"npm run build",
     "build": "vite build",
+    "deploy":"gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
